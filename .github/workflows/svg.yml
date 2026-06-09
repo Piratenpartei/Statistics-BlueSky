@@ -1,0 +1,25 @@
+name: Create SVG File
+on:
+    workflow_dispatch:
+    workflow_run:
+        workflows: ['BlueSky']
+        types: [completed]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v6
+
+      - name: Create SVG
+        run: ./CreateSVGs.ps1
+        shell: pwsh
+            
+      - name: Commit & Push
+        uses: Andro999b/push@v1.3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: main
+          force: true
+          message: 'generate SVGs'

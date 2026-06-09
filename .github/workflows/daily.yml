@@ -1,0 +1,29 @@
+name: BlueSky
+
+on:
+    workflow_dispatch:
+    schedule:
+        - cron: "00 22 * * *"
+          timezone: "Europe/Berlin"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v6
+
+      - name: Run PSA
+        uses: StartAutomating/PSA@main
+        id: PSA
+        env:
+            AT_PROTOCOL_HANDLE: ${{ secrets.AT_PROTOCOL_HANDLE }}
+            AT_PROTOCOL_APP_PASSWORD: ${{ secrets.AT_PROTOCOL_APP_PASSWORD }}
+
+      - name: Commit & Push
+        uses: Andro999b/push@v1.3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: main
+          force: true
+          message: 'Scraped Data'
