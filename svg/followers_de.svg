@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" style="background-color: #e6e6e6; width: 365px;" viewBox="0 -2050 365 50" preserveAspectRatio="none">
-  <polyline fill="none" stroke="#ff8800" stroke-width="3" points="0,-2003 1,-2005 2,-2010 3,-2011 4,-2013 5,-2014 6,-2014 7,-2015 8,-2015 9,-2015 10,-2015 11,-2015 12,-2016 13,-2018 14,-2020 15,-2020 16,-2021 17,-2021 18,-2021 19,-2020 20,-2020 21,-2021 22,-2021 23,-2021 24,-2020" />
+  <polyline fill="none" stroke="#ff8800" stroke-width="3" points="0,-2003 1,-2005 2,-2010 3,-2011 4,-2013 5,-2014 6,-2014 7,-2015 8,-2015 9,-2015 10,-2015 11,-2015 12,-2016 13,-2018 14,-2020 15,-2020 16,-2021 17,-2021 18,-2021 19,-2020 20,-2020 21,-2021 22,-2021 23,-2021 24,-2020 25,-2020" />
   <line x1="0" y1="0" x2="365" y2="0" style="stroke:grey;stroke-width:1" />
   <line x1="0" y1="-25" x2="365" y2="-25" style="stroke:grey;stroke-width:1" />
   <line x1="0" y1="-50" x2="365" y2="-50" style="stroke:grey;stroke-width:1" />
