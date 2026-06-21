@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" style="background-color: #e6e6e6; width: 365px;" viewBox="0 -300 365 50" preserveAspectRatio="none">
-  <polyline fill="none" stroke="#ff8800" stroke-width="3" points="0,-258 1,-260 2,-262 3,-264 4,-264 5,-264 6,-264 7,-264 8,-265 9,-267 10,-268 11,-268 12,-268 13,-268 14,-268 15,-268 16,-268 17,-269 18,-271 19,-271 20,-272 21,-272 22,-272 23,-273 24,-273 25,-273" />
+  <polyline fill="none" stroke="#ff8800" stroke-width="3" points="0,-258 1,-260 2,-262 3,-264 4,-264 5,-264 6,-264 7,-264 8,-265 9,-267 10,-268 11,-268 12,-268 13,-268 14,-268 15,-268 16,-268 17,-269 18,-271 19,-271 20,-272 21,-272 22,-272 23,-273 24,-273 25,-273 26,-274" />
   <line x1="0" y1="0" x2="365" y2="0" style="stroke:grey;stroke-width:1" />
   <line x1="0" y1="-25" x2="365" y2="-25" style="stroke:grey;stroke-width:1" />
   <line x1="0" y1="-50" x2="365" y2="-50" style="stroke:grey;stroke-width:1" />
