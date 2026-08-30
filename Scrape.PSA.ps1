@@ -9,6 +9,7 @@
     'de-nw.csv' = 'piraten.nrw'
     'de-rp.csv' = 'piratenrlp.bsky.social'
     'de-sl.csv' = 'piratensaarland.bsky.social'
+    'de-sh.csv' = 'piratenparteish.bsky.social'
     'ag-gesundheit.csv' = 'gesundheitspiraten.de'
     'ag-energiepolitik.csv' = 'aenergiepolitik.bsky.social'
     'ag-piratinnennetzwerk.csv' = 'piratinnennetzwerk.bsky.social'
