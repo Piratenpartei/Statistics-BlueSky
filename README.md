@@ -73,6 +73,10 @@
 ### Sachsen-Anhalt
 
 ### Schleswig-Holstein
+#### Follower
+[<img src="./svg/followers_de-sh.svg" width="365px">](https://bsky.app/profile/piratenparteish.bsky.social)
+#### Posts
+[<img src="./svg/posts_de-sh.svg" width="365px">](https://bsky.app/profile/piratenparteish.bsky.social)
 
 ### Thüringen
 
